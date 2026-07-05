@@ -119,7 +119,7 @@ url: https://blog.zzc.dpdns.org
 deploy:
   type: git
   repo: git@github.com:zzc-blog/zzc-blog.github.io.git
-  branch: main
+  branch: gh-pages
   message: 'Site updated: {{ now("yyyy-MM-dd HH:mm:ss") }}' 
 
 skip_render:
