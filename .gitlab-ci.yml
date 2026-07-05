@@ -1,0 +1,16 @@
+image: node:lts
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npx hexo generate
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
