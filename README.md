@@ -56,21 +56,19 @@ F:\HexoBlog
 
 ### 环境要求
 
-- Node.js >= 14
-- npm 或 pnpm
+- Node.js >= 18
+- pnpm >= 8
 
 ### 安装依赖
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### 本地预览
 
 ```bash
-hexo server
-# 或
-npm run server
+pnpm run server
 ```
 
 访问 http://localhost:4000 预览
@@ -78,23 +76,19 @@ npm run server
 ### 创建新文章
 
 ```bash
-hexo new "文章标题"
+pnpm run new "文章标题"
 ```
 
 ### 生成静态文件
 
 ```bash
-hexo generate
-# 或
-npm run build
+pnpm run build
 ```
 
 ### 部署到 GitHub Pages
 
 ```bash
-hexo deploy
-# 或
-npm run deploy
+pnpm run deploy
 ```
 
 ---
