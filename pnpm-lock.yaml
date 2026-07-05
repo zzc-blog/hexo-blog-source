@@ -20,6 +20,9 @@ importers:
       hexo-generator-category:
         specifier: ^2.0.0
         version: 2.0.0
+      hexo-generator-cname:
+        specifier: ^0.3.0
+        version: 0.3.0
       hexo-generator-feed:
         specifier: ^4.0.0
         version: 4.0.0
@@ -525,6 +528,10 @@ packages:
   hexo-generator-category@2.0.0:
     resolution: {integrity: sha512-9OduRBf3WeRDa4BR0kAfRjOVHur7v3fm0NKAwbjUiqULigAdNZVZPO3cHKW2MlBbl/lI5PuWdhQ9zZ99CCCAgQ==}
     engines: {node: '>=14'}
+
+  hexo-generator-cname@0.3.0:
+    resolution: {integrity: sha512-ZKyxqORsm4vlIilpTaL30xKyOiTS/ZdCs5PGso0UWh+E/4hvpoYNFv4sCp4EeUuBhgGiV4xuyg9M9CHfm8XV7Q==}
+    engines: {hexo: '>= 1.0.x', node: '>= 0.8.x'}
 
   hexo-generator-feed@4.0.0:
     resolution: {integrity: sha512-wG0SDBwJ60B+bcMQhArjSpw/bsuP1/4o9Ar+FnxTMRq5/SEZZlj7q/r7HI60olRf0eurqEm4Dm8yHfAMKQhkoA==}
@@ -1652,6 +1659,8 @@ snapshots:
   hexo-generator-category@2.0.0:
     dependencies:
       hexo-pagination: 3.0.0
+
+  hexo-generator-cname@0.3.0: {}
 
   hexo-generator-feed@4.0.0:
     dependencies:

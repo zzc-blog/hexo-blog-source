@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://zzcblog.dpdns.org
+
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -115,6 +115,7 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 
+url: https://zzcblog.dpdns.org
 deploy:
   type: git
   repo: https://github.com/zzc-blog/zzc-blog.github.io.git
