@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -115,12 +115,15 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 
-url: https://zzcblog.dpdns.org
+url: https://blog.zzc.dpdns.org
 deploy:
   type: git
-  repo: https://github.com/zzc-blog/zzc-blog.github.io.git
+  repo: git@github.com:zzc-blog/zzc-blog.github.io.git
   branch: main
   message: 'Site updated: {{ now("yyyy-MM-dd HH:mm:ss") }}' 
+
+skip_render:
+  - 'CNAME'
   
   
 # https://github.com/RayKr/hexo-auto-front-matter
